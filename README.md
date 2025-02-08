@@ -35,7 +35,7 @@ Filters and sorting options can be configured, and results are loaded lazily—o
 - **Flexible Filters:** Configure filters (e.g. video title, views, likes, duration, date range, license type).
 - **Sorting Options:** Sort results by various fields such as view count, upload date, etc.
 - **Lazy Pagination:** Load additional pages on demand using a generator interface (via `search_all()`).
-- **Channel Extraction:** Extract the canonical channel ID from a channel URL (even from vanity URLs like `@nomadcapitalist`).
+- **Channel Extraction:** Extract the canonical channel ID from a channel URL (even from vanity URLs like `@examplechannel`).
 - **Command-Line Interface:** Use the library from the command line for quick searches.
 
 > **Note:** The library does not implement caption processing functionality itself. Users can implement caption handling on top of the library using other tools.
@@ -118,7 +118,7 @@ The library includes a module to extract a channel’s canonical ID from its URL
 ```python
 from youtube_caption_finder.channel import Channel
 
-channel_url = "https://www.youtube.com/@nomadcapitalist"
+channel_url = "https://www.youtube.com/@examplechannel"
 channel = Channel(channel_url)
 print("Channel ID:", channel.channel_id)
 ```

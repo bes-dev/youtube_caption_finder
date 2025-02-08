@@ -91,7 +91,7 @@ def get_channel_id(channel_url: str) -> str:
     Fetches the channel page for the given URL and extracts the canonical channel ID.
 
     For example, for a vanity URL like:
-      https://www.youtube.com/@nomadcapitalist
+      https://www.youtube.com/@examplechannel
     it may return:
       UC3k3floOm_HtKOv0l6JU-xQ
 
