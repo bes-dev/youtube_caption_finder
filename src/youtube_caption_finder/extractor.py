@@ -62,7 +62,8 @@ class VideoInfoExtractor:
 
             scroll_box = card.find("div", class_="scroll-box")
             scroll_text = scroll_box.get_text(separator="\n", strip=True) if scroll_box else None
-            scroll_text = " ".join(scroll_text.split()) # Remove extra whitespace
+            if scroll_text:
+                scroll_text = " ".join(scroll_text.split()) # Remove extra whitespace
 
             video_info = VideoInfo(
                 vcard_id=vcard_id,
