@@ -1,6 +1,6 @@
 # youtube_caption_finder
 
-**youtube_caption_finder** is a Python library for searching YouTube videos by their captions via an external API (Filmot).
+**youtube_caption_finder** is a Python library for searching YouTube videos by their captions via an external API (API_KEY doesn't required).
 It provides an object‐oriented interface for configuring search filters, sorting options, and performing queries to retrieve video information.
 The library supports lazy loading of paginated results so that additional pages are fetched on demand.
 
