@@ -4,6 +4,7 @@ Module for extracting video and filter information from HTML responses.
 Provides helper classes for parsing the HTML returned from the external API.
 """
 
+import re
 from bs4 import BeautifulSoup
 from typing import Dict, List
 from youtube_caption_finder.video import VideoInfo
@@ -107,7 +108,6 @@ class FilterExtractor:
             collapse_id = sort_header.get("href", "").lstrip("#")
             sort_div = accordion.find("div", id=collapse_id)
             if sort_div:
-                import re
                 for a in sort_div.find_all("a", href=True):
                     text = a.get_text(strip=True)
                     href = a["href"]
