@@ -58,7 +58,7 @@ class YoutubeCaptionFinder:
             params.update(sort_option.to_dict())
         # Convert all parameter values to strings
         params = {k: str(v) for k, v in params.items()}
-x        query_encoded = urllib.parse.quote(query)
+        query_encoded = urllib.parse.quote(query)
         path = f"1/{page_id}?{urllib.parse.urlencode(params)}"
         suburl = posixpath.join(query_encoded, path)
         return urllib.parse.urljoin(self.BASE_URL, suburl)
