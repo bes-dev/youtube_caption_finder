@@ -186,5 +186,12 @@ Contributions are welcome! To contribute:
 ## License
 This project is licensed under the Apache-2.0 license. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-For any questions or suggestions, please contact sergei.o.belousov@gmail.com.
+## Disclaimer
+
+This project is intended solely for educational and research purposes.
+Users are advised that utilizing this project may result in actions that disregard the directives specified in a website's robots.txt file.
+The robots.txt file is a standard used by websites to communicate with web crawlers and other automated agents about which areas of the site should not be processed or analyzed.
+
+By using this project, you acknowledge and agree that the author is not responsible or liable for any misuse or damage caused by your use of the project.
+It is your responsibility to ensure that your use of this project complies with all applicable laws and regulations, as well as the terms of service of any websites you interact with.
+The author explicitly disclaims any liability for actions taken by users that contravene website policies or legal statutes.
