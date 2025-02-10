@@ -21,7 +21,7 @@ The library supports lazy loading of paginated results so that additional pages 
 - [Lazy Loading of Results](#lazy-loading-of-results)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Disclaimer](#disclaimer)
 
 ## Overview
 
